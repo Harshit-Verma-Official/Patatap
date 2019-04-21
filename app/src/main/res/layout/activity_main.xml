@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/one"
+            android:onClick="playMusic"
+            android:text="@string/one"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            tools:text="@string/one" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/two"
+            android:text="@string/two"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            android:onClick="playMusic"
+            tools:text="@string/two" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/three"
+            android:text="@string/three"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:onClick="playMusic"
+            tools:text="@string/three" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/four"
+            android:text="@string/four"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
+            android:onClick="playMusic"
+            tools:text="@string/four" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/five"
+            android:text="@string/five"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:onClick="playMusic"
+            tools:text="@string/five" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/six"
+            android:text="@string/six"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1"
+            android:onClick="playMusic"
+            tools:text="@string/six" />
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
